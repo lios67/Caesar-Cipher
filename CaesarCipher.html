@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="External.css">
+        <title>Caesar Cipher</title>
+    </head>
+    <body>
+        <h1>Caesar Cipher</h1>
+        <div class=form>
+            <form id="data">
+                <label><strong>Text:</strong></label><br>
+                <textarea id="msg" rows="7" cols="85.5" placeholder="Secret Msg"></textarea><br>
+                <select name="crypt" id="crypt">
+                    <option value="Encode">Encode</option>
+                    <option value="Decode">Decode</option>
+                </select>
+                <input type="Encode" name="Encode" id="Encode" min="1" max="26">
+                <button type ="submit" name="button" id="button">Cipher</button>
+            </form>
+        </div>
+        <h2>Secret:</h2>
+        <p id="output">
+
+        </p>
+        <script src="main.js"></script>
+    </body>
+</html>
